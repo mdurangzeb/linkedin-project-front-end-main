@@ -19,7 +19,7 @@ import Pages from './components/networkComponent/Pages';
 import './homeMedia.css'
 import axios from 'axios'
 import DiscoverGroups from './components/networkComponent/DiscoverGroups';
-import Login from './pages/login';
+import Login from './pages/Login';
 function App() {
   const [usersData, setUsersData] = useState([]);
   const [users, setUsers] = useState([]);
