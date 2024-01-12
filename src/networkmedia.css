@@ -1,0 +1,76 @@
+@media only screen and (max-width: 764px) {
+   .followers .d-flex{
+    flex-direction: column;
+   }
+   .followers .card {
+    width: 100% !important;
+    left: -25px !important;
+   }
+   .follow .col-3{
+      margin-top: 10px;
+   }
+   .group .col-9  .grps {
+     flex-direction: column;
+     padding-bottom: 20px;
+   }
+   .group .col-9 .d-flex p {
+      font-size: 20px;
+   }
+   .group .col-9 .grps .btn {
+      width: 100% !important;
+   }
+   .group .col-3 {
+      margin-top: 20px;
+   }
+   .event .col-9 img {
+      width: 100% !important;
+   }
+   .event .col-3 {
+      margin-top: 20px;
+   }
+   .page .col-3 {
+      margin-top: 20px;
+   }
+   .pending {
+      margin-top: 15px;
+      margin-bottom: 15px;
+   }
+   .network .col-9 .lastbtn {
+      width: auto !important;
+      font-size: 20px !important;
+   }
+
+  }
+
+  @media only screen and (min-width: 764px) and (max-width: 1200px) {
+   body {
+      height: 100% !important;
+   }
+   .network .col-3 {
+      width: 100% !important;
+      font-size: 25px ;
+   } 
+   .network .col-9 {
+      width: 100%;
+      margin-top: 20px !important;
+   }
+   .network .col-3 .image {
+      width: 250px !important;
+      border-radius: 50%;
+   }
+   .connections .col-9, .col-3 {
+      width: 100%;
+   }
+   .follow .col-9, .group .col-9,
+   .event .col-9,
+   .page .col-9 {
+      width: 100%;
+   }
+   .follow .col-3, .group .col-3, 
+   .event .col-3,
+   .page .col-3 {
+      margin-top: 20px;
+   }
+   
+ 
+}

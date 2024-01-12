@@ -1,0 +1,99 @@
+.posts .post {
+  margin-bottom: 1rem;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 7px;
+  border: 1px solid rgb(209, 200, 200);
+}
+.posts .post .post__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts .post .post__top .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.posts .post .post__top .left img {
+  width: 24px;
+  border-radius: 50%;
+}
+.posts .post .post__top svg {
+  cursor: pointer;
+}
+.posts .post .mid .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts .post .mid .head .desc {
+  display: flex;
+  gap: 1rem;
+}
+.posts .post .mid .head .desc img {
+  width: 48px;
+  border-radius: 50%;
+}
+.posts .post .mid .head .plus {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: rgb(50, 123, 157);
+}
+.posts .post .mid .head .plus svg {
+  font-size: larger;
+}
+.posts .post .mid .desc {
+  color: rgb(75, 68, 68);
+}
+.posts .post .mid .tags {
+  margin: 14px 5px;
+}
+.posts .post .mid .tags h4 {
+  margin: 5px;
+}
+.posts .post .mid img {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  max-width: auto;
+  text-align: center;
+}
+.posts .post .mid .intract {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+}
+.posts .post .mid .intract .right {
+  display: flex;
+  gap: 1rem;
+}
+.posts .post .mid .intract .left {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.posts .post .bottom .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts .post .bottom .items .item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgb(75, 68, 68);
+  font-weight: bold;
+  gap: 5px;
+}
+.posts .post .bottom .items .item svg {
+  font-size: 23px;
+}
+.posts .post .bottom .items .item span {
+  display: block;
+}
+/*# sourceMappingURL=Posts.css.map */

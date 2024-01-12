@@ -1,0 +1,29 @@
+@media only screen and (max-width: 764px) {
+    .col-2  {
+        width: 100% !important;
+    }
+    .col-7 {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+
+    .job .col-3 {
+        margin-top: 20px;
+    }
+    .job {
+        position: relative;
+        top: -30px !important;
+    }
+}
+
+@media only screen and (min-width: 764px) and (max-width: 1200px) {
+    .job .col-2,
+    .job .col-3,
+    .job .col-7 {
+        width: 100%;
+        font-size: 20px !important;
+        padding-bottom: 30px;
+        position: relative;
+        top: -30px;
+    }
+}

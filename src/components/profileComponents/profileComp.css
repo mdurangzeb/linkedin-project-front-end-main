@@ -1,0 +1,45 @@
+@media only screen and (max-width: 764px) {
+ 
+    .row {
+        flex-direction: column;
+        width: 100% !important;
+        top: 10px !important;
+    }
+    .col-9 {
+        width: 100% !important;
+    }
+    .col-3 {
+        width: 100% !important;
+    }
+    .bi-camera-fill {
+        position: relative;
+        top: 0px !important;
+        left: -30px;
+    }
+    .profilebtn .btn {
+      display: flex !important;
+      justify-content: start !important;
+      margin: 15px;
+      align-self: start !important;
+      width: 100%;
+    }
+  
+    .userCard {
+        width: 100% !important;
+    }
+    .avatar {
+        position: absolute !important;
+        left: 70px !important;
+    }
+    .showCard {
+        width: 90% !important;
+        height: 90% !important;
+        top: 50px !important;
+        position: relative;
+        left: 20px !important;
+    }
+    .showCard .d-flex {
+        flex-direction: column;
+    }
+  }
+

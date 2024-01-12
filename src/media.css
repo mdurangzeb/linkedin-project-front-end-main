@@ -1,0 +1,154 @@
+/* Default styles for all screen sizes */
+
+/* Small screens (phones, 600px and below) */
+@media only screen and (max-width: 764px) {
+    body {
+        top: 40px !important;
+        height: auto;
+        padding-bottom: 30px !important;
+    }
+    /* Styles for small screens */
+    .navinput {
+        width: 20px !important;
+        display: none;
+    }
+  
+    nav p {
+        display: none;
+    }
+    .navbar-brand img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .icons img {
+         width: 28px !important;
+    }
+    .lastIcons {
+        display: none;
+    }
+    .centercard {
+        flex-direction: column;
+    }
+    .postcard {
+        width: 100% !important;
+        margin-top: 10px ;
+    }
+    .col-6 {
+        width: 100% !important;        
+    }
+    .editCard .lang {
+        display: none !important;
+    }
+   
+    .editCard .lang2 .btn {
+        width: 100% !important;
+        margin-top: 20px;
+    }
+    .home .postedcard .card-footer .plate {
+        flex-wrap: wrap;
+        justify-content: space-between !important;        
+    }
+    .home .postedcard {
+        margin: 15px 0px;
+    }
+    .postedUser > div {
+        flex-direction: column;
+    }
+    .postedUser  .user {
+        width: 45px !important;
+        height: 45px !important;
+        margin-bottom: 10px;
+    } 
+    .postedUser h6,
+    .postedUser p {
+        font-size: 12px !important;
+    }
+    .mediacard {
+        height: 600px !important;
+        top: -30px !important;
+        right: 70px;
+        width: 60% !important;
+    }
+    .mediacard .plaincard {
+        flex-direction: column;
+    }
+    .mediacard .card-body {
+        overflow-y: scroll;
+    }
+    .mediacard .btn,
+    .eventcard .btn {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .mediacard .selectedimage img {
+        width: 50% !important;
+        object-fit: contain;
+    }
+    .eventcard .card-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .eventcard {
+        width: 120% !important;
+        right: 77.5px;
+        height: 600px !important;
+        top: -40px;
+    }
+    .eventcard .card-body {
+        height: 300px !important;
+        overflow-y: scroll;
+    } 
+  }
+  
+  /* Medium screens (tablets, 601px to 900px) */
+  @media only screen and (min-width: 764px) and (max-width: 1200px) {
+    /* Styles for medium screens */
+    body {
+        height: auto !important;
+        padding-bottom: 50px !important;
+    }
+    .navinput {
+        width: 400px !important;
+    }
+    .icons img {
+        width: 40px !important;
+   }
+   .lastIcons {
+    display: none;
+    }
+    nav p {
+        display: none;
+    }
+    .home .col-6 {
+        width: 100% !important;
+    }
+    .home .col-3 {
+        width: 100% !important;
+    }
+    .home .col-3 .avatar {
+        position: relative;
+        left: 150px !important;
+    }
+    .mainNavbar input {
+        width: 70% !important;
+    }
+
+  }
+  
+  /* Large screens (desktops, 901px and above) */
+  @media only screen and (min-width: 1200px) {
+    /* Styles for large screens */
+    /* .lastIcons {
+        display: none;
+        }
+        .navinput {
+            width: 300px !important;
+        }
+        .icons img {
+            width: 40px !important;
+       }
+       nav p {
+        display: none;
+    } */
+  }
+  

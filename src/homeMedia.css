@@ -1,0 +1,16 @@
+@media only screen and (min-width: 764px) and (max-width: 1200px) {
+  .mainprofiles .col-9, 
+  .mainprofiles .col-3 {
+    width: 100% !important;
+  }
+   .backgroundimagecard,
+   .editCard,
+   .aboutcard {
+    position: relative;
+    left: 60px !important;
+    width: 85% !important;
+  }
+  .aboutcard textarea {
+    width: 100%;
+  }
+}

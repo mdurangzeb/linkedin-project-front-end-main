@@ -1,0 +1,124 @@
+.posts{
+
+
+    .post{
+        margin-bottom: 1rem;
+        
+        background-color: rgb(255, 255, 255);
+        padding: 1rem;
+        border-radius: 7px;
+        border: 1px solid rgb(209, 200, 200);
+
+        .post__top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .left{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                img{
+                    width: 24px;
+                    border-radius: 50%;
+                }
+            }
+            svg{
+                cursor: pointer;
+            }
+        }
+        
+        .mid{
+            .head{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .desc{
+                    img{
+                        width: 48px;
+                        border-radius: 50%;
+                    }
+                    display: flex;
+                    gap: 1rem;
+                    
+                }
+                .plus{
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    gap: .3rem;
+                    font-weight: bolder;
+                    font-size: 1.2rem;
+                    color: rgb(50, 123, 157);
+                    svg{
+                        font-size: larger;
+                    }
+                }
+
+            }
+
+            .tags{
+
+            }
+
+            .desc{
+                color: rgb(75, 68, 68);
+            }
+
+            .tags{
+
+                margin: 14px 5px;
+                h4{
+                    margin: 5px;
+                }
+            }
+            
+            img{
+                display: block;
+                margin: 1rem 0;
+                width: 100%;
+                max-width: auto;
+                text-align: center;
+            }
+            .intract{
+                display: flex;
+                justify-content: space-between;
+                font-size: .5rem;
+                .right{
+                    display: flex;
+                    gap: 1rem;
+                }
+                .left{
+                    display: flex;
+                    align-items: center;
+                    gap: 7px;
+                }
+            }
+            
+
+        }
+
+        .bottom{
+            .items{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .item{
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    color: rgb(75, 68, 68);
+                    font-weight: bold;
+                    gap: 5px;
+                    svg{
+                        font-size: 23px;
+                    }
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
