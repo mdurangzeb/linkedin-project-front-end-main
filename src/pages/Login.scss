@@ -1,0 +1,17 @@
+.login__div{
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    .login__btn{
+        margin: auto;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    h3{
+        font-size: 4rem;
+        font-weight: 900;
+        color: #0e76a8;
+    }
+}
