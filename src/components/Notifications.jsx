@@ -52,9 +52,10 @@ const jobPost = [
 
 
 
-const Notifications = () => {
+const Notifications = ({user,setUser}) => {
+  console.log(user,setUser)
   return (<>
-  <NavBar/>
+  <NavBar user={user} setUser={setUser}/>
   <br /><br /><br />
     <div className='notif__div'>
       <section className="left">

@@ -134,12 +134,12 @@ const current_messages = [
 
 
 
-const Messages = () => {
+const Messages = ({user,setUser}) => {
   const [text, setText] = useState(null)
   // const [current, set] = useState(null)
 
   return (<>
-      <NavBar/>
+      <NavBar user={user} setUser={setUser}/>
       <br />
       <br />
       <br />

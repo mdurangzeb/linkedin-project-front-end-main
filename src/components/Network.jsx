@@ -9,12 +9,12 @@ import paper from './networkimages/newspaper.svg'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer'
 
-function Network({usersData}) {
+function Network({user,setUser,usersData}) {
   
   return (
     <div style={{backgroundColor:"#f4f2ee"}} className='mt-5 pt-4'>
     
-      <NavBar />
+      <NavBar user={user} setUser={setUser}/>
       <div class="row container-xl network mx-auto p-3">
         <div class="col-3 ">
         <div class="card">

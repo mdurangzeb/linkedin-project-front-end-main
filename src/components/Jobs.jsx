@@ -13,10 +13,10 @@ import test from '../assets/test.png'
 
 
 
-function Jobs() {
+function Jobs({user,setUser}) {
   return (
     <div style={{backgroundColor:"#f4f2ee"}} className='mt-5'>
-      <NavBar />
+      <NavBar user={user} setUser={setUser} />
       <div class="row job container-xl mx-auto py-5">
         <div class="col-2">
           <div className="card p-1 shadow  " style={{fontSize:"14px"}}>

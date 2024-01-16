@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import home from './navImages/home.png';
 import bell from './navImages/bell.png';
 import downarrow from './navImages/down-arrow.png';
@@ -22,6 +22,7 @@ const NavBar = ({user,setUser}) => {
     }
 
     const nav = useNavigate()
+    console.log(setUser)
 
 
     const logout= ()=>{
@@ -146,7 +147,7 @@ const NavBar = ({user,setUser}) => {
             }} onClick={() => setShowLayer(!showlayer)}></div>
         </div></> : <><div>{null}</div></>
     }
-
+{/* setprofileCard */}
       {
         profileCard ? 
         (<div className='scale-in-top' style={{position:"absolute", top:"10px", left:"55%",zIndex:"1" }}>
@@ -159,7 +160,9 @@ const NavBar = ({user,setUser}) => {
                     <h6>Worked in Previous Company </h6>
                 </div>
             </div>
-                    <button className='btn btn-outline-primary rounded-5 text-primary'>View Profile</button> <hr />
+            <Link to="/MainProfile" style={{width:'100%'}}>
+                    <button style={{width:'100%'}} onClick={() => setprofileCard(false)} className='btn btn-outline-primary rounded-5 text-primary'>View Profile</button> <hr />
+            </Link>
                 <div class="card-body fs-6">
                     <h5 class="card-title fw-bold text-secondary">Account</h5>
                     <p>Settings & privacy</p>
@@ -180,7 +183,7 @@ const NavBar = ({user,setUser}) => {
                <div className={`card h-100 w-25 slide-in-right  p-4`}  style={{position:"absolute", top:"10px", left:"73.5%", zIndex:"1" }}>
                   <div className='d-flex justify-content-between'>
                     <h3>For Business</h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" className='' width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <svg onClick={() => setbusinesscard(false)} xmlns="http://www.w3.org/2000/svg" className='' width="30" height="30" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
                         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
                         </svg>
                   </div>
