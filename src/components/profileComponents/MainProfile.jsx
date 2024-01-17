@@ -287,7 +287,7 @@ function MainProfile({users}) {
                 </div>
                     </div>
                     <p>B.Tech Computer Science; enginerring</p>
-                    <p>2017-2020</p>
+                    <p>2017-2021</p>
                 </div>
             </div>
 
@@ -656,9 +656,9 @@ function MainProfile({users}) {
                     <div class="card-body" style={{overflowY:"scroll"}}>
                         <div className="d-flex justify-content-between">
                           <div className="d-flex align-items-center ">
-                          <img className='avatar' src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style={{width: "80px" }} alt="Avatar" /> 
+                          <img className='avatar' src="https://img.freepik.com/free-photo/gray-smooth-textured-paper-background_53876-101833.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais" class="rounded-circle" style={{width: "80px" }} alt="Avatar" /> 
                           <div className='mx-3'>
-                            <h5>Ashok Kumar pasala</h5>
+                            <h5>Md Aurangzeb</h5>
                             <p>Open to Work</p>
                           </div>
                          </div>
@@ -677,11 +677,11 @@ function MainProfile({users}) {
                           </div>
                           <div className='my-5'>
                             <p className='fw-bold'>Locations (on-site)</p>
-                            <h5>Andhra Pradesh, India</h5>
+                            <h5>Uttar Pradesh, India</h5>
                           </div>
                           <div className='my-5'>
                             <p className='fw-bold'>Locations (remote)</p>
-                            <h5>Andhra Pradesh, India</h5>
+                            <h5>Uttar Pradesh, India</h5>
                           </div>
                           <div className='my-5'>
                             <p className='fw-bold'>Start date</p>

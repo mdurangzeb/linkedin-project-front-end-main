@@ -20,7 +20,7 @@ const Login = ({ setUser }) => {
           onError={() => {
             console.log('Login Failed');
           }}
-        />;
+        />
       </div>
     </div>
   )
