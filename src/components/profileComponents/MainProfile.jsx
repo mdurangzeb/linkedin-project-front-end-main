@@ -656,7 +656,7 @@ function MainProfile({users}) {
                     <div class="card-body" style={{overflowY:"scroll"}}>
                         <div className="d-flex justify-content-between">
                           <div className="d-flex align-items-center ">
-                          <img className='avatar' src="https://img.freepik.com/free-photo/gray-smooth-textured-paper-background_53876-101833.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais" class="rounded-circle" style={{width: "80px" }} alt="Avatar" /> 
+                          <img className='avatar' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_800_800/0/1679043758636?e=1710979200&v=beta&t=iH7jWmuBO2QG5C4YbchQOteU4riNz_4Kh1IKzM1Hiog" class="rounded-circle" style={{width: "80px" }} alt="Avatar" /> 
                           <div className='mx-3'>
                             <h5>Md Aurangzeb</h5>
                             <p>Open to Work</p>
