@@ -1,19 +1,24 @@
-import React from 'react'
+// import React from 'react'
 import NavBar from './NavBar'
-import network from './navImages/teamwork.png'
+// import network from './navImages/teamwork.png'
 import checkperson from './networkimages/person-check.svg'
 import calender from './networkimages/calendar2-event.svg'
 import file from './networkimages/file-earmark.svg'
-import hash from './networkimages/hash.svg'
+// import hash from './networkimages/hash.svg'
 import paper from './networkimages/newspaper.svg'
 import { Link } from 'react-router-dom'
 import Footer from '../Footer'
 import { Carousel } from 'react-bootstrap';
 import test from '../assets/test.png'
+import { useState } from 'react'
+import ResumeBuilderpage from './jobsComponent/ResumeBuilderpage'
 
 
 
 function Jobs({user,setUser}) {
+  const [showPreferenceComponent, setshowPreferenceComponent] = useState(false)
+
+  const [showResumeCard, setshowResumeCard]  = useState(false)
   return (
     <div style={{backgroundColor:"#f4f2ee"}} className='mt-5'>
       <NavBar user={user} setUser={setUser} />
@@ -22,28 +27,35 @@ function Jobs({user,setUser}) {
           <div className="card p-1 shadow  " style={{fontSize:"14px"}}>
           <div className='d-flex mt-3'>
           <i class="bi bi-bookmark-fill mx-2"  style={{width:"20px", height:"20px"}}></i>
-                <p>My jobs</p>
+                <Link to="myjobs">My jobs</Link>
               </div>
-              <div className='d-flex'>
+              <br />
+               <div className='d-flex'>
                 <img src={checkperson} className='mx-2' style={{width:"20px", height:"20px"}} alt="" />
+                <Link onClick={() => setshowPreferenceComponent(!showPreferenceComponent)}>
+
                 <p>Preference</p>
+                </Link>
               </div>
               <div className='d-flex'>
               <i class="bi bi-journal-check mx-2" style={{width:"20px", height:"20px"}}></i>
-                              <p>Skill Assessment</p>
+              <p>Skill Assessment</p>
               </div>
               <div className='d-flex'>
                <img src={calender} className='mx-2' style={{width:"20px", height:"20px"}} alt="" />
-                <p>Intrerview Prep</p>
+                <Link to="/IntrerviewPrepComp">Intrerview Prep</Link>
               </div>
+              <br />
               <div className='d-flex'>
                 <img src={file} className='mx-2' style={{width:"20px", height:"20px"}} alt="" />
-                <p>Resume Builder</p>
+                <Link onClick={() => setshowResumeCard(!showResumeCard)}  to="">Resume Builder</Link>
               </div>
+              <br />
               <div className='d-flex'>
                 <img src={paper} className='mx-2' style={{width:"20px", height:"20px"}} alt="" />
-                <p>Job seeker guidance</p>
+                <Link to="/JobSeekPage">Job seeker guidance</Link>
               </div>
+              <br />
               <div className='d-flex'>
               <i class="bi bi-gear-fill mx-2" style={{width:"20px", height:"20px"}}></i>
                               <p>Application settings</p>
@@ -182,6 +194,69 @@ function Jobs({user,setUser}) {
              <Link className='fw-bold fs-5 p-3'>show more</Link>
           </div>
           <div className='' style={{fontSize:"12px"}}>
+
+          {showPreferenceComponent ?
+       <>
+          <div style={{
+            position:"fixed",
+            width:"100%",
+            height:"100%",
+            backgroundColor:"black",
+            top:"0",
+            left:"0",
+            opacity:"0.65"
+          }}  onClick={() => setshowPreferenceComponent(!showPreferenceComponent)}>
+
+            </div>
+            <div className="card w-25 h-auto preferenceCard" style={{position:"fixed", top:"120px", left:"35.5%"}}>
+              <div className="d-flex justify-content-between p-3 border-bottom px-4">
+                <h5 className='fw-bold'>preference</h5>
+                <i class="bi bi-x-lg"></i>
+              </div>
+              <div className="d-flex justify-content-between px-4 p-3 border-bottom " style={{fontSize:"12px"}}>
+                <div>
+
+                <h6 className='fw-bold'>Open to work</h6>
+                <div>Job preferences to see all the Linkedin Members</div>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+                </div>
+                <div className="d-flex justify-content-between px-4 p-3 border-bottom " style={{fontSize:"12px"}}>
+                <div>
+
+                <h6 className='fw-bold'>Job alerts</h6>
+                <div>Javascript developer and other</div>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+                </div>
+                <div className="d-flex justify-content-between px-4 p-3 " style={{fontSize:"12px"}}>
+                <div>
+
+                <h6 className='fw-bold'>pay</h6>
+                <div>privately indicate desired pay details</div>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+                </div>
+            </div>
+      </> : <><div>{null}</div></>}
+
+      {showResumeCard ?
+       <>
+          <div style={{
+            position:"fixed",
+            width:"100%",
+            height:"100%",
+            backgroundColor:"black",
+            top:"0",
+            left:"0",
+            opacity:"0.65"
+          }}  onClick={() => setshowResumeCard(!showResumeCard)}>
+
+            </div>
+            <div className="">
+              <ResumeBuilderpage  setshowResumeCard={setshowResumeCard} showResumeCard={showResumeCard}  />
+            </div>
+      </> : <><div>{null}</div></>}
 
           <Footer />
           </div>

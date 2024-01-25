@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavBar from '../NavBar'
 import { Link } from 'react-router-dom'
-import Footer from '../../Footer'
+// import Footer from '../../Footer'
+import EventComponent from './EventComponent'
 
 function EventsPage() {
+  const [event, setEvent] = useState(false)
   return (
     <div className='mt-5 pt-4' style={{backgroundColor:"#f4f2ee", height:"100vh"}}>
       <NavBar />
@@ -12,7 +14,10 @@ function EventsPage() {
         <div className="card p-3">
             <div className="d-flex justify-content-between border-bottom p-2">
                 <h5>Events</h5>
-                <Link className='fw-bold'>Create</Link>
+                <Link to='' className='fw-bold' onClick={() => setEvent(!event) }>
+                  <button className='btn btn-outline-primary rounded-pill'>Create</button>
+                </Link>
+                {/* <Link className='fw-bold'>Create</Link> */}
             </div>
             <div className='d-flex justify-content-center'>
                 <div className='text-center'>
@@ -35,11 +40,32 @@ function EventsPage() {
             <button className='btn btn-primary fw-bold'>Follow</button>
           </div>
           <div className=" mt-3 p-1">
-              <Footer />    
+              {/* <Footer />     */}
             </div>
             </div> 
                   
          </div>
+
+         {event && 
+         <>
+         
+          <div style={{
+            position:"fixed",
+            width:"100%",
+            height:"100%",
+            backgroundColor:"black",
+            top:"0",
+            left:"0",
+            opacity:"0.65"
+          }}  onClick={() => setEvent(!event)}>
+
+            </div>
+         <EventComponent />
+
+            </>
+         }
+
+
     </div>
   )
 }

@@ -19,8 +19,14 @@ import Pages from './components/networkComponent/Pages';
 import './homeMedia.css'
 import axios from 'axios'
 import DiscoverGroups from './components/networkComponent/DiscoverGroups';
+// import Myjobs from './components/jobsComponent/Myjobs';
+// import InterviewPrepComp from './components/jobsComponent/InterviewPrepComp';
 import Login from './pages/Login';
 import NavBar from './components/NavBar';
+import Myjobs from './components/jobsComponent/Myjobs';
+import InterviewPrepComp from './components/jobsComponent/InterviewPrepComp';
+import JobSeekPage from './components/jobsComponent/JobSeekPage';
+import ResumeBuilderpage from './components/jobsComponent/ResumeBuilderpage';
 function App() {
   const [usersData, setUsersData] = useState([]);
   const [users, setUsers] = useState([]);
@@ -68,7 +74,17 @@ function App() {
           <Route exact path='/' element={user ? <Home  user={user} setUser={setUser} users={users} /> : <Login  user={user} setUser={setUser}/>} />
           {/* <Route exact path='/login' element={user ? <Home users={users} /> : <Login />} /> */}
           <Route exact path='/network' element={user?<Network user={user} setUser={setUser} usersData={usersData} />:<Login  user={user} setUser={setUser}/>} />
+          
           <Route exact path='/jobs' element={user?<Jobs user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
+          <Route exact path='/jobs/myjobs' element={user?<Myjobs user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
+
+          <Route exact path='/IntrerviewPrepComp' element={user?<InterviewPrepComp user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
+
+          <Route exact path='/ResumeBuilderpage' element={user?<ResumeBuilderpage user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
+
+
+          <Route exact path='/JobSeekPage' element={user?<JobSeekPage user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
+
           <Route exact path='/messages' element={user?<Messages user={user} setUser={setUser} />:<Login  user={user} setUser={setUser}/>} />
           <Route exact path='/notifications' element={ user? <Notifications user={user} setUser={setUser} />: <Login  user={user} setUser={setUser}/> } />
           <Route exact path='/MainProfile' element={<MainProfile users={users} />} />
