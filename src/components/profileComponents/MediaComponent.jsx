@@ -72,7 +72,7 @@ function MediaComponent({setChildImages, setShowMediaComponent, showMediaCompone
             <div className='d-flex'>
 
 
-        <img className='avatar' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" class="rounded-circle " style={{width: "80px", height:"80px"
+        <img className='avatar' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" class="rounded-circle " style={{width: "80px", height:"80px"
      
     }}
     alt="Avatar" />

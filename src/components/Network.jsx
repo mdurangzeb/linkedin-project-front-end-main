@@ -65,7 +65,7 @@ function Network({user,setUser,usersData}) {
             <p>Get the latest jobs and industry news</p>
             <div className="d-flex  justify-content-center">
 
-            <img className='image' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" class="rounded-circle" style={{width: "80px",}} alt="Avatar" />
+            <img className='image' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" class="rounded-circle" style={{width: "80px",}} alt="Avatar" />
             </div>
             <p>Md Aurangzeb, explore relevant opportunities with Mavenir</p>
             <button className='btn btn-primary fw-bold'>Follow</button>

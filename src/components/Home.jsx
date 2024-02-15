@@ -131,14 +131,15 @@ function Home({ users,user,setUser }) {
         <div className="col-3">
           <div className="card shadow ">
             <Link to='/MainProfile'>
-              <img className='avatar' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" className="rounded-circle" style={{
+              <img className='avatar' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" style={{
                 width: "100px",
                 position: "absolute",
                 top: "30px",
-                right: "100px"
+                right: "100px", borderRadius:"50%"
               }}
                 alt="Avatar" />
-              <img className='' style={{ height: "100px" }} src="https://img.freepik.com/free-photo/gray-smooth-textured-paper-background_53876-101833.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702512000&semt=ais" className="card-img-top" alt="..." />
+              <img className='' style={{ height: "100px" }} src="https://th.bing.com/th/id/OIP.repJczKz3JH0ozIgQig35wHaFj?w=276&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7
+" className="card-img-top" alt="..." />
             </Link>
             {
               users.slice(0, 1).map((user) => {
@@ -191,7 +192,7 @@ function Home({ users,user,setUser }) {
           <div className="card postcard shadow rounded-4 p-3">
             <div className="d-flex  align-items-center">
 
-              <img src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" className="rounded-circle" style={{
+              <img src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" className="rounded-circle" style={{
                 width: "70px",
 
               }}
@@ -484,7 +485,7 @@ function Home({ users,user,setUser }) {
               <p>Get the latest jobs and industry news</p>
               <div className="d-flex align-self-center">
 
-                <img className='' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" className="rounded-circle" style={{ width: "80px", }} alt="Avatar" />
+                <img className='' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" className="rounded-circle" style={{ width: "80px", }} alt="Avatar" />
               </div>
               <p>Md Aurangzeb, explore relevant opportunities with Mavenir</p>
               <button className='btn btn-primary fw-bold'>Follow</button>

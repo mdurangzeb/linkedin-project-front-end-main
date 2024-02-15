@@ -26,7 +26,7 @@ const conversations = [
   {
     id: 2,
     name: "Numan Ali",
-    selectedFile: 'https://media.licdn.com/dms/image/D4D35AQHrCYRH4JYDRg/profile-framedphoto-shrink_100_100/0/1691070606087?e=1705406400&v=beta&t=TGu9CRGJloGum5Cax9P-q1pjce_eEOYHmrOzoqvb3_8'
+    selectedFile: 'https://media.licdn.com/dms/image/D4D35AQHrCYRH4JYDRg/profile-framedphoto-shrink_100_100/0/1691070606087?e=1708614000&v=beta&t=ozFnXoq_G2t9QIGLgne_DhomebRCu0-Lu4i92tvP9D4'
   },
 
   {
@@ -44,7 +44,7 @@ const conversations = [
   {
     id: 5,
     name: "Bharti Sarawgi",
-    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQGEs6QQ9mgt-w/profile-displayphoto-shrink_100_100/0/1687499266456?e=1705536000&v=beta&t=KIoaY0xfOdszVlQUDIquuG5iin-rtK2NsX36wfvzQwg'
+    selectedFile: 'https://media.licdn.com/dms/image/D4E03AQHjirK-wAYxaA/profile-displayphoto-shrink_100_100/0/1707806124509?e=1713398400&v=beta&t=3Gj9WNUMrOAI1H42LObCFzCmS5a-cVw3X9SqOk3tgrc'
   },
 
   // -------
@@ -62,7 +62,7 @@ const current_messages = [
     name: "Md Aurangeb",
     message: "Hii",
     sent: true,
-    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw',
+    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo',
     time: "9:00 PM"
   },
 
@@ -80,7 +80,7 @@ const current_messages = [
     name: "Md Aurangeb",
     message: "How are You?",
     sent: true,
-    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw',
+    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo',
     time: "9:06 PM"
   },
 
@@ -98,7 +98,7 @@ const current_messages = [
     name: "Md Aurangeb",
     message: "where do you live?",
     sent: true,
-    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw',
+    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo',
     time: "9:10 PM"
   },
 
@@ -116,7 +116,7 @@ const current_messages = [
     name: "Md Aurangeb",
     message: "Good",
     sent: true,
-    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw',
+    selectedFile: 'https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo',
     time: "9:15 PM"
   },
 

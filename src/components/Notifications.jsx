@@ -114,7 +114,7 @@ const Notifications = ({user,setUser}) => {
         <div className='ad'>Ad <BsThreeDots /></div>
         <span className='small'>Keep up with interesting, relevant updates</span>
         <div className="img">
-          <img src="https://media.licdn.com/dms/image/C4E0BAQHI9ATKrp3GJw/company-logo_100_100/0/1637345110214?e=1712793600&v=beta&t=P8J6LjrtaRTXHqDMmZBwv3lgsF_TE6-omRL_lLGpv18" alt="" />
+        <img className='' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" class="rounded-circle" style={{width: "80px",}} alt="Avatar" />
         </div>
         <span className='desc'>Md Aurangzeb, grow your career by following ETS India</span>
         <button>Follow</button>

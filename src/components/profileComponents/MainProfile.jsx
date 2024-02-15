@@ -314,7 +314,7 @@ function MainProfile({users}) {
                     <p>Get the latest jobs and industry news</p>
                     <div className="d-flex align-self-center">
                     <div className='penhover  d-flex align-items-center justify-content-center ' style={{width:"50px", height:"50px"}}>
-                    <img className='' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1707955200&v=beta&t=d0fMsj_bFzNBzvVUoaNv191BTMsWBNoilt-20s4uqrw" class="rounded-circle" style={{width: "80px",}} alt="Avatar" />
+                    <img className='' src="https://media.licdn.com/dms/image/D4D03AQHfYpkhzSu5ew/profile-displayphoto-shrink_100_100/0/1679043758635?e=1713398400&v=beta&t=i2JaXwNnlt970SJCQcsxbfRD32tcXmFQSA8FbxlLImo" class="rounded-circle" style={{width: "60px",}} alt="Avatar" />
                     </div>
                     </div>
                     <p>Md Aurangzeb, explore relevant opportunities with Mavenir</p>
